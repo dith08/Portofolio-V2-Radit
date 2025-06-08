@@ -68,7 +68,7 @@ const SkillsSection = () => {
          <div className="w-full md:max-w-sm mt-8 md:mt-96">
            <h3 className="text-2xl md:text-3xl text-yellow-400 font-bold mb-2 hover:text-yellow-500 transition-colors duration-300">Tech Stack ⚙️ & Tools 🛠</h3>
            <p className="text-sm text-gray-700 font-light hover:text-gray-900 transition-colors duration-300">
-             There are some tech stack and tools that I've learned and experienced
+             There are some tech stack and tools that I&apos;ve learned and experienced
            </p>
          </div>
        </div>

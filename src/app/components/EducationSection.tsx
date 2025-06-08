@@ -5,14 +5,14 @@
 
   const EducationSection = () => {
     const educations = [
-      { title: 'SDIT AL-KAUTSAR', subtitle: 'Elementary School', date: '2014 – 2020' },
-      { title: 'MTSN 2 KUDUS', subtitle: 'Junior High School', date: '2020 – 2023' },
-      { title: 'SMK Raden Umar Said', subtitle: 'Senior High School', date: '2023 – 2026' },
+      { id: '1', title: 'SDIT AL-KAUTSAR', subtitle: 'Elementary School', date: '2014 – 2020', description: '' },
+      { id: '2', title: 'MTSN 2 KUDUS', subtitle: 'Junior High School', date: '2020 – 2023', description: '' },
+      { id: '3', title: 'SMK Raden Umar Said', subtitle: 'Senior High School', date: '2023 – 2026', description: '' },
     ]
 
     const awards = [
-      { title: 'Finalist – National Software Development Competition', subtitle: 'Politeknik Jember', date: '2024' },
-      { title: 'Participant – National Software Development Competition', subtitle: 'TechomFest', date: '2025' },
+      { id: '1', title: 'Finalist – National Software Development Competition', subtitle: 'Politeknik Jember', date: '2024', description: '' },
+      { id: '2', title: 'Participant – National Software Development Competition', subtitle: 'TechomFest', date: '2025', description: '' },
     ]
 
     return (
@@ -39,6 +39,5 @@
         </div>
       </section>
     )
-  }
-
+  }  
   export default EducationSection

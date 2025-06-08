@@ -1,12 +1,8 @@
 import Image from "next/image";
 import DownloadButton from "./ui/ButtonDownloadCV";
-import blockConnection from "./ui/blockConnection";
 import Block from "./ui/BlockConection";
 
-type HeroProps = {
-  title: string;
-  imageSrc: string;
-};
+
 
  const Hero = () => {
     return (

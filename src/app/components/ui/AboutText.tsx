@@ -4,13 +4,13 @@ const AboutText = () => {
       <p className="text-black text-xl mb-4 font-light">Hello everyone! 👋</p>
       <div className="text-gray-800 leading-relaxed font-light font-">
         <p>
-          I'm Radithia Arlistian Saputra, a Full Stack & Mobile Developer 
+          I&apos;m Radithia Arlistian Saputra, a Full Stack & Mobile Developer 
         </p>
         <p className="mt-1">
         with mid-level experience.
         </p>
         <p className="mt-1">
-          I'm passionate about tech, love turning ideas into clean,
+          I&apos;m passionate about tech, love turning ideas into clean,
         </p>
         <p className="mt-1">
         user-friendly apps, and always eager to grow through

@@ -75,19 +75,29 @@ const projectList = [
     url: '#',
   },
 ]
-const ProjectsSection = () => {
-  const [selectedProject, setSelectedProject] = useState(null)
-  const [isModalOpen, setIsModalOpen] = useState(false)
 
-  const handleOpen = (project: any) => {
-    setSelectedProject(project)
-    setIsModalOpen(true)
-  }
+interface Project {
+  image: string;
+  title: string;
+  desc: string;
+  fullDesc: string;
+  url: string;
+}
+
+
+const ProjectsSection = () => {
+  const [selectedProject, setSelectedProject] = useState<Project | null>(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const handleOpen = (project: Project) => {
+    setSelectedProject(project);
+    setIsModalOpen(true);
+  };
 
   const handleClose = () => {
-    setSelectedProject(null)
-    setIsModalOpen(false)
-  }
+    setSelectedProject(null);
+    setIsModalOpen(false);
+  };
 
   return (
     <section className="bg-gray-50 px-6 md:px-20 py-16">
@@ -98,10 +108,9 @@ const ProjectsSection = () => {
         ))}
       </div>
 
-      {/* Modal muncul saat kartu diklik */}
-      <ProjectModal isOpen={isModalOpen} onClose={handleClose} project={selectedProject}/>
+      <ProjectModal isOpen={isModalOpen} onClose={handleClose} project={selectedProject} />
     </section>
-  )
-}
+  );
+};
 
-export default ProjectsSection
+export default ProjectsSection;
