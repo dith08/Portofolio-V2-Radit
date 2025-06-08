@@ -1,5 +1,6 @@
 // components/SkillsSection.tsx
 'use client'
+import Image from 'next/image'
 import { useState } from 'react'
 import SkillTab from './ui/SkillTab'
 import BlockPortofolio from './ui/BlockPortofolio';
@@ -55,7 +56,7 @@ const SkillsSection = () => {
                {data.map((item, i) => (
                  <div key={i} className="flex flex-col items-center group">
                    <div className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 bg-white rounded-full shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] flex items-center justify-center transform transition-all duration-300 hover:scale-110 hover:shadow-lg hover:bg-gray-50">
-                     <img src={item.icon} alt={item.title} className="w-12 h-12 sm:w-14 sm:h-14 md:w-15 md:h-15 transition-transform duration-300 group-hover:rotate-12" />
+                     <Image src={item.icon} alt={item.title} className="w-12 h-12 sm:w-14 sm:h-14 md:w-15 md:h-15 transition-transform duration-300 group-hover:rotate-12" />
                    </div>
                    <h4 className="text-sm md:text-md text-black font-bold text-center mt-2 transition-colors duration-300 group-hover:text-yellow-400">{item.title}</h4>
                    <p className="text-xs text-gray-500 font-bold text-center transition-all duration-300 group-hover:scale-105">{item.level}</p>
