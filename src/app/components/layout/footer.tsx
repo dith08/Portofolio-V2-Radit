@@ -72,7 +72,7 @@ const Footer = () => {
               >
                 <div className="bg-gray-800 p-2 rounded-full transform transition-all duration-300 hover:scale-110 hover:bg-gray-700 hover:shadow-lg hover:shadow-gray-500/50">
                   <Image
-                    src="/img/Github.svg"
+                    src="/img/GitHub.svg"
                     alt="GitHub"
                     width={24}
                     height={24}
