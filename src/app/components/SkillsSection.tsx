@@ -20,13 +20,12 @@ const techStack = [
    { icon: '/img/Laravel.svg', title: 'Laravel', level: 'Intermediate' },
    { icon: '/img/MySql.svg', title: 'MySQL', level: 'Intermediate' },
    { icon: '/img/MongoDB.svg', title: 'MongoDB', level: 'Basic' },
+   { icon: '/img/Firebase.svg', title: 'Firebase', level: 'Basic' },
    { icon: '/img/Java.svg', title: 'Java', level: 'Basic' },
    { icon: '/img/Kotlin.svg', title: 'Kotlin', level: 'Basic' },
    { icon: '/img/Dart.svg', title: 'Dart', level: 'Basic' },
    { icon: '/img/Flutter.svg', title: 'Flutter', level: 'Basic' },
    { icon: '/img/Python.svg', title: 'Python', level: 'Intermediate' },
-   { icon: '/img/Pandas.svg', title: 'Pandas', level: 'Basic' },
-   { icon: '/img/Selenium.svg', title: 'Selenium', level: 'Basic' },
 ];
 
 const tools = [
@@ -38,6 +37,9 @@ const tools = [
    { icon: '/img/Git.svg', title: 'Git', level: 'Intermediate' },
    { icon: '/img/Laragon.svg', title: 'Laragon', level: 'Basic' },
    { icon: '/img/Xampp.svg', title: 'XAMPP', level: 'Basic' },
+   { icon: '/img/Pandas.svg', title: 'Pandas', level: 'Basic' },
+   { icon: '/img/Selenium.svg', title: 'Selenium', level: 'Basic' },
+   { icon: '/img/Canva.svg', title: 'Canva', level: 'Advanced' },
 ];
 
 const SkillsSection = () => {
@@ -56,7 +58,7 @@ const SkillsSection = () => {
                {data.map((item, i) => (
                  <div key={i} className="flex flex-col items-center group">
                    <div className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 bg-white rounded-full shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] flex items-center justify-center transform transition-all duration-300 hover:scale-110 hover:shadow-lg hover:bg-gray-50">
-                     <Image src={item.icon} alt={item.title} className="w-12 h-12 sm:w-14 sm:h-14 md:w-15 md:h-15 transition-transform duration-300 group-hover:rotate-12" />
+                     <Image src={item.icon} alt={item.title} width={12} height={12} className="sm:w-14 sm:h-14 md:w-15 md:h-15 transition-transform duration-300 group-hover:rotate-12" />
                    </div>
                    <h4 className="text-sm md:text-md text-black font-bold text-center mt-2 transition-colors duration-300 group-hover:text-yellow-400">{item.title}</h4>
                    <p className="text-xs text-gray-500 font-bold text-center transition-all duration-300 group-hover:scale-105">{item.level}</p>

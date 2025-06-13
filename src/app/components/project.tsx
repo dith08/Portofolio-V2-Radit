@@ -5,6 +5,13 @@ import ProjectModal from './ui/ProjectModal.'
 
 const projectList = [
   {
+    image: '/img/KAG.png',
+    title: 'Karya Adi Grafika',
+    desc: 'A printing e-commerce website that makes it easier for customers to order various printing services.',
+    fullDesc: 'I developed an e-commerce website for Karya Adi Grafika printing as a final project for grade 11. This website provides a platform that allows customers to explore various printing services, view product catalogs, and place orders online. Available features include a gallery of print samples, automatic price calculation, shopping cart system, and secure checkout process. Customers can easily upload their design files and provide desired printing specifications. This website is built using modern web technologies to provide an optimal shopping experience for users.',
+    url: 'https://kag-weld.vercel.app/',
+  },
+  {
     image: '/img/DoctorBooking.png',
     title: 'Doctor Booking Website',
     desc: 'I created this website to make it easier to make schedules with doctors.',
@@ -37,7 +44,7 @@ const projectList = [
     title: 'Portofolio Website V1',
     desc: 'I created this website to make my portofolio more professional V1.',
     fullDesc: 'I designed and developed a professional portfolio website to showcase my work and skills effectively. The website features a modern, responsive design with smooth animations and intuitive navigation. It includes sections for project showcases, detailed case studies, and professional experience. The portfolio is built using the latest web technologies and follows best practices in web development, ensuring fast loading times and optimal user experience across all devices.',
-    url: 'https://dith08.github.io/E-Commerce-Website/',
+    url: 'https://dith08.github.io/Portofolio-V1',
   },
   {
     image: '/img/Portofolio.png',
@@ -54,7 +61,7 @@ const projectList = [
     url: '#',
   },
   {
-    image: '/img/MobileTicket.png',
+    image: '/img/CalculateShape.jpg',
     title: 'Calculation Shape App',
     desc: 'I created this App to make it easier to calculate shapes.',
     fullDesc: 'I developed a mobile application that simplifies geometric calculations for various shapes. The app provides quick and accurate calculations for area, perimeter, volume, and other geometric properties. It supports a wide range of 2D and 3D shapes, features step-by-step calculation explanations, and includes visualization tools to help users better understand geometric concepts. The app is designed to be educational while maintaining a user-friendly interface.',
@@ -74,6 +81,12 @@ const projectList = [
     fullDesc: 'I participated in a national technology competition focused on web development and innovation. The competition provided a platform to showcase technical expertise and creative solutions in web development. Through this experience, I demonstrated my ability to work under pressure, meet strict technical requirements, and create web applications that solve real-world problems. This participation reflects my commitment to continuous learning and professional growth in the field of web development.',
     url: '#',
   },
+  {
+    image: '/img/Bootcamp.png',
+    title: 'Bootcampt Introduction Full Stack',
+    desc: 'I participated in a Full Stack Development Bootcamp at Skilvul during my 10th grade.',
+    fullDesc: 'During my 10th grade, I enrolled in an intensive Full Stack Development Bootcamp at Skilvul. The program covered comprehensive web development skills, including front-end technologies (HTML, CSS, JavaScript), back-end development (Node.js), and database management. Throughout the bootcamp, I worked on various hands-on projects, collaborated with fellow participants, and gained practical experience in building full-stack applications. This early exposure to professional web development significantly enhanced my technical skills and reinforced my passion for programming.',
+    url: '#',  },
 ]
 
 interface Project {

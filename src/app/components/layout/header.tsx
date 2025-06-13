@@ -28,8 +28,8 @@ const Header = () => {
           {/* Desktop Menu */}
           <ul className="hidden md:flex space-x-8 justify-center flex-1 text-md text-black">
             {menuItems.map((item) => (
-              <li key={item.href}>
-                <a 
+              <li key={`${item.href}-${item.label}`}>
+              <a 
                   href={item.href}
                   className= "text-black hover:text-yellow-400 transition-colors duration-500 font-medium relative group"
                 >
