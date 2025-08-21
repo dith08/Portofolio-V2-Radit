@@ -17,7 +17,7 @@
 
     return (
       <section className="bg-white py-20 px-6 md:px-20">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">Education</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-16 text-black">Education</h2>
         <div className="flex flex-col md:flex-row items-start md:items-center">
           <SectionTitle
             title="Educations 🎓 & Awards 🏆"

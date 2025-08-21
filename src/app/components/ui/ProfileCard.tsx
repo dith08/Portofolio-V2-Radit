@@ -8,7 +8,7 @@ const ProfileCard = () => {
       <div className="absolute w-[200px] h-[200px] bg-[#FFF019] rounded-full -bottom-20 -left-10"></div>
 
       <Image
-        src="/img/FotoAbout.png"
+        src="/img/profile.jpg"
         alt="Radithia Arlistian Saputra"
         fill
         className="rounded-2xl object-cover"

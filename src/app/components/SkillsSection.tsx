@@ -29,7 +29,7 @@ const techStack = [
 ];
 
 const tools = [
-   { icon: '/img/Github.svg', title: 'GitHub', level: 'Intermediate' },
+   { icon: '/img/GitHub.svg', title: 'GitHub', level: 'Intermediate' },
    { icon: '/img/VScode.svg', title: 'VSCode', level: 'Advanced' },
    { icon: '/img/Figma.svg', title: 'Figma', level: 'Intermediate' },
    { icon: '/img/Postman.svg', title: 'Postman', level: 'Intermediate' },

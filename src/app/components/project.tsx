@@ -9,7 +9,7 @@ const projectList = [
     title: 'Karya Adi Grafika',
     desc: 'A printing e-commerce website that makes it easier for customers to order various printing services.',
     fullDesc: 'I developed an e-commerce website for Karya Adi Grafika printing as a final project for grade 11. This website provides a platform that allows customers to explore various printing services, view product catalogs, and place orders online. Available features include a gallery of print samples, automatic price calculation, shopping cart system, and secure checkout process. Customers can easily upload their design files and provide desired printing specifications. This website is built using modern web technologies to provide an optimal shopping experience for users.',
-    url: 'https://kag-weld.vercel.app/',
+    url: 'https://karyaadigrafika.rplrus.com',
   },
   {
     image: '/img/DoctorBooking.png',
@@ -114,7 +114,7 @@ const ProjectsSection = () => {
 
   return (
     <section className="bg-gray-50 px-6 md:px-20 py-16">
-      <h2 className="text-3xl md:text-4xl font-bold text-center mb-10">My Portofolio</h2>
+      <h2 className="text-3xl md:text-4xl font-bold text-center mb-10 text-black">My Portofolio</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 place-items-center">
         {projectList.map((project, i) => (
           <ProjectCard key={i} {...project} onClick={() => handleOpen(project)} />
